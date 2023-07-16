@@ -1,0 +1,14 @@
+{
+  "name": "ts-keeper-of-keys",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:errendir/ts-keeper-of-keys.git",
+  "author": "Albert Sławiński <errendir@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "bench": "tsc --noEmit --strict --lib 'es5' --skipLibCheck --diagnostics index.ts"
+  },
+  "dependencies": {
+    "typescript": "^5.1.6"
+  }
+}
